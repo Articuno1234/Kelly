@@ -3,8 +3,8 @@ try:
   import os
   import subprocess
   import random
-  import 32
-  import 64
+  from bit import 32
+  from bit import 64
 except ImportError:
   input("Error 1\n"
         "ImportError")
