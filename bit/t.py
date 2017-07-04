@@ -64,4 +64,4 @@ def boot():
   if choice == "root":
     root_boot()
   if choice == "user":
-user_boot()
+    user_boot()
