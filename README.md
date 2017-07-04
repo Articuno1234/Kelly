@@ -1,4 +1,4 @@
-# Kelly
+# Kelly-MATE
 a python operating system
 
 # BIT
