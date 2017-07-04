@@ -3,8 +3,9 @@ try:
   import os
   import subprocess
   import random
-  from bit import 32
-  from bit import 64
+  import time
+  from bit import t
+  from bit import s
 except ImportError:
   input("Error 1\n"
         "ImportError")
@@ -26,13 +27,16 @@ def boot():
   bit = ["32", "64"]
   if IS_WINDOWS:
     print("Loading 64-Bit")
-    64.boot()
+    time.sleep(2)
+    t.boot()
   if IS_MAC:
     print("Loading 32-Bit")
-    32.boot()
+    time.sleep(2)
+    s.boot()
   else:
     print("Loading {}-Bit".format(random.choice(bit)))
-    32.boot()
+    time.sleep(2)
+    s.boot()
     
 boot = boot()
 print(boot)
