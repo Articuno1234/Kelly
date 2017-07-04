@@ -1,4 +1,4 @@
-# Kelly-DEMO
+# Kelly
 a python operating system
 
 # BIT
